@@ -797,7 +797,12 @@ font-size: 14px;
     .features-card{
         width: 150px;
     }
-
+    .reviews{
+        margin: auto;
+    }
+    .our-clients {
+        margin: 44px 0px;
+    }
     .send-email{
        
        
