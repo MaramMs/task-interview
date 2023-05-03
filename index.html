@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Online Shop</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">online <span>shop</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+
+            <div class="d-flex nav-icon align-items-center">
+              <span><i class="bi bi-cart-check-fill icon"></i></span>
+              <span> <i class="bi bi-search icon"></i></span>
+              <span> <i class="bi bi-person"></i></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="product-img">
+                    <img src="./images/product1.png" alt="" />
+                  </div>
+
+                  <div class="share">
+                    <span>Share</span>
+                    <div class="icon-share">
+                      <a href="/">
+                        <i class="bi bi-linkedin linked"></i>
+                      </a>
+
+                      <a href=""><i class="bi bi-twitter twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook face"></i></a>
+                      <a href=""><i class="bi bi-whatsapp whats"></i></a>
+                      <a href=""><i class="bi bi-link-45deg link"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="col-md-2">
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">
+        <img src="./images/small-pro.png" alt="">
+    </a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+                </div> -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <span class="product-code"> SKU 12314124124 </span>
+              <h2 class="product-name">
+                OMEN Monitor With High Quality In The World
+              </h2>
+              <div class="rate d-flex">
+                <div class="star-rating">
+                  <span class="rate-total">4.0</span>
+                  <span class="star-rating-icon">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </span>
+                  <span class="total-review">(223)</span>
+                </div>
+
+                <div class="sold d-flex">
+                  <span class="ps-4">
+                    <i class="bi bi-check-lg check"></i>
+                  </span>
+                  <p class="num-sold pe-4">4,320 <span>Sold</span></p>
+                </div>
+
+                <div class="view d-flex">
+                  <span>
+                    <i class="bi bi-eye-fill eye"></i>
+                  </span>
+                  <p class="num-view">1.4k <span>Viewed</span></p>
+                </div>
+              </div>
+              <div class="prices d-flex align-items-center">
+                <span class="new-price">$976.33</span>
+                <div class="price d-flex align-items-center">
+                  <span class="old-price">$1,020.99</span>
+                  <span class="discount-price"> 20% </span>
+                </div>
+
+                <div
+                  class="d-flex align-items-center justify-content-center ms-5"
+                >
+                  <span>
+                    <i class="bi bi-heart-fill heart"></i>
+                  </span>
+                  <p class="add-to-wishlist">Add to wishlist</p>
+                </div>
+              </div>
+
+              <div class="product-desc-items">
+                <p class="desc-item">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam
+                </p>
+                <ul class="product-feature-list">
+                  <li>-Direct Full Array</li>
+
+                  <li>- Quantum Dot Technology</li>
+                  <li>- Ambient Mode</li>
+                  <li>- One Remote Control</li>
+                </ul>
+              </div>
+
+              <div class="screens-size">
+                <h2>Screen Size</h2>
+                <div class="screens d-flex">
+                  <div class="screens-size-item">14-lnch</div>
+                  <div class="screens-size-item">14-lnch</div>
+                  <div class="screens-size-item">14-lnch</div>
+                  <div class="screens-size-item">14-lnch</div>
+                </div>
+              </div>
+
+              <div class="btns d-flex">
+                <div class="counter-btn">
+                  <span>-</span>
+                  <span>1</span>
+                  <span>+</span>
+                </div>
+                <div class="buy-cart-btns">
+                  <button type="button" class="buy">buy</button>
+                  <button type="button" class="cart">add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-review">
+        <div class="container">
+          <h2 class="product-review-title">Product Review (223)</h2>
+
+          <div class="row mar">
+            <div class="col-md-3 ps-5">
+              <div class="reviews">
+                4.6
+                <span>(139 Reviews)</span>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <span class="star-rating-icon">
+                <i class="bi bi-star-fill star-review"></i>
+                <i class="bi bi-star-fill star-review"></i>
+                <i class="bi bi-star-fill star-review"></i>
+                <i class="bi bi-star-fill star-review"></i>
+              </span>
+              <div class="fitter d-flex">
+                <div class="all-fitter">All(139)</div>
+                <div class="images-fitter">With Images (69)</div>
+              </div>
+              <div class="fitter-star">
+                <div class="fitter-star-item">5 Stars</div>
+                <div class="fitter-star-item">4 Stars</div>
+                <div class="fitter-star-item">3 Stars</div>
+                <div class="fitter-star-item">2 Stars</div>
+                <div class="fitter-star-item">1 Stars</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 py-3">
+              <div class="client-reviews d-flex">
+                <img src="./images/person/client1.png" alt="" />
+
+                <div class="client-info d-flex flex-column">
+                  <span>Shin Ryujin</span>
+                  <span class="star-rating-icon">
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 py-3">
+              <div class="client-review-say">
+                <p>
+                  A good review includes enough detail to give others a feel for
+                  what happened. Explain which factors contributed to your
+                  positive, negative or just so-so experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 py-3">
+              <div class="client-reviews d-flex">
+                <img src="./images/person/client1.png" alt="" />
+
+                <div class="client-info d-flex flex-column">
+                  <span>Shin Ryujin</span>
+                  <span class="star-rating-icon">
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 py-3">
+              <div class="client-review-say">
+                <p>
+                  A good review includes enough detail to give others a feel for
+                  what happened. Explain which factors contributed to your
+                  positive, negative or just so-so experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 py-3">
+              <div class="client-reviews d-flex">
+                <img src="./images/person/client1.png" alt="" />
+
+                <div class="client-info d-flex flex-column">
+                  <span>Shin Ryujin</span>
+                  <span class="star-rating-icon">
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 py-3">
+              <div class="client-review-say">
+                <p>
+                  A good review includes enough detail to give others a feel for
+                  what happened. Explain which factors contributed to your
+                  positive, negative or just so-so experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 py-3">
+              <div class="client-reviews d-flex">
+                <img src="./images/person/client1.png" alt="" />
+
+                <div class="client-info d-flex flex-column">
+                  <span>Shin Ryujin</span>
+                  <span class="star-rating-icon">
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                    <i class="bi bi-star-fill star-review"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 py-3">
+              <div class="client-review-say">
+                <p>
+                  A good review includes enough detail to give others a feel for
+                  what happened. Explain which factors contributed to your
+                  positive, negative or just so-so experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="review-btn">See All</button>
+        </div>
+      </section>
+
+      <section class="related-products">
+        <div class="container">
+          <h2 class="related-title">Related Products</h2>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <div class="img">
+                      <img
+                        src="./images/products/related-product1.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">THC Full Spectrum: Natural</h5>
+                      <p class="card-text">
+                        THC 110.0-160.0mg/g CBD 0.0-1.0mg/g
+                      </p>
+                      <div class="card-price">
+                        <span class="card-old-price">$45.99</span>
+                        <span class="card-new-price">$36.87</span>
+                      </div>
+
+                      <div class="card-btns">
+                        <button type="button" class="add-to-cart">
+                          Add to Cart
+                        </button>
+                        <span><i class="bi bi-heart-fill card-heart"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <div class="img">
+                      <img
+                        src="./images/products/related-product2.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">THC Full Spectrum: Natural</h5>
+                      <p class="card-text">
+                        THC 110.0-160.0mg/g CBD 0.0-1.0mg/g
+                      </p>
+                      <div class="card-price">
+                        <span class="card-old-price">$45.99</span>
+                        <span class="card-new-price">$36.87</span>
+                      </div>
+
+                      <div class="card-btns">
+                        <button type="button" class="add-to-cart">
+                          Add to Cart
+                        </button>
+                        <span><i class="bi bi-heart-fill card-heart"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <div class="img">
+                      <img
+                        src="./images/products/related-product3.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">THC Full Spectrum: Natural</h5>
+                      <p class="card-text">
+                        THC 110.0-160.0mg/g CBD 0.0-1.0mg/g
+                      </p>
+                      <div class="card-price">
+                        <span class="card-old-price">$45.99</span>
+                        <span class="card-new-price">$36.87</span>
+                      </div>
+
+                      <div class="card-btns">
+                        <button type="button" class="add-to-cart">
+                          Add to Cart
+                        </button>
+                        <span><i class="bi bi-heart-fill card-heart"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <div class="img">
+                      <img
+                        src="./images/products/related-product4.png"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">THC Full Spectrum: Natural</h5>
+                      <p class="card-text">
+                        THC 110.0-160.0mg/g CBD 0.0-1.0mg/g
+                      </p>
+                      <div class="card-price">
+                        <span class="card-old-price">$45.99</span>
+                        <span class="card-new-price">$36.87</span>
+                      </div>
+
+                      <div class="card-btns">
+                        <button type="button" class="add-to-cart">
+                          Add to Cart
+                        </button>
+                        <span><i class="bi bi-heart-fill card-heart"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="container">
+          <div class="row feat-col">
+            <div class="col-md-2">
+              <div class="features-card">
+                <span class="feat-card-icon">
+                  <i class="bi bi-truck feat-icon"></i>
+                </span>
+                <h3 class="feat-card-title">Free Delivery</h3>
+                <span class="feat-card-text">from $40</span>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="features-card">
+                <span class="feat-card-icon">
+                  <i class="bi bi-star-fill feat-icon"></i
+                ></span>
+                <h3 class="feat-card-title">Best Quality</h3>
+                <span class="feat-card-text">Brand</span>
+              </div>
+
+              <!-- <i class="bi bi-wechat"></i> -->
+            </div>
+            <div class="col-md-2">
+              <div class="features-card">
+                <span class="feat-card-icon">
+                  <i class="bi bi-stopwatch-fill feat-icon"></i>
+                </span>
+                <h3 class="feat-card-title">Free Delivery</h3>
+                <span class="feat-card-text">from $40</span>
+              </div>
+
+              <!-- <i class="bi bi-wechat"></i> -->
+            </div>
+            <div class="col-md-2">
+              <div class="features-card">
+                <span class="feat-card-icon">
+                  <i class="bi bi-chat-fill feat-icon"></i>
+                </span>
+                <h3 class="feat-card-title">Feedback</h3>
+                <span class="feat-card-text">99% Real Data</span>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="features-card">
+                <span class="feat-card-icon">
+                  <i class="bi bi-credit-card-fill feat-icon"></i>
+                </span>
+                <h3 class="feat-card-title">Payment</h3>
+                <span class="feat-card-text">Secure</span>
+              </div>
+
+              <!-- <i class="bi bi-wechat"></i> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-clients">
+        <div class="container">
+          <div class="row">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="./images/our-client1.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./images/our-client2.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./images/our-client3.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./images/our-client4.png" alt="" />
+              </div>
+              <div class="item">
+                <img src="./images/our-client5.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+<div class="container">
+    <div class="newsletter">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="news">
+                <span>Newsletter</span>
+                <p>Be the first one to know  about discounts, offers and events</p>
+              </div>
+
+            
+        </div>
+
+        <div class="col-md-6">
+            <div class="send-email d-flex">
+                <div class="email-input">
+                    <i class="bi bi-envelope"></i>
+                    <input type="email" placeholder="Enter your email"/>
+                </div>
+                <button class="news-btn">Submit</button>
+              </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-2">
+            <div class="menu">
+                <h3 class="menu-title">About</h3>
+                <ul class="menu-list">
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">About Us</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Blog</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Careers</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Jobs</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">In Press</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="menu">
+                <h3 class="menu-title">Support</h3>
+                <ul class="menu-list">
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Contact us</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Online Chat</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Whatsapp</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Telegram</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Ticketing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="menu">
+                <h3 class="menu-title">FAQ</h3>
+                <ul class="menu-list">
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Account</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Manage Deliveries</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Orders</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Payments</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Returns</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="menu">
+                <h3 class="menu-title">About</h3>
+                <ul class="menu-list">
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">About Us</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Blog</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Careers</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Jobs</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">In Press</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="menu">
+                <h3 class="menu-title">Support</h3>
+                <ul class="menu-list">
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Contact us</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Online Chat</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Whatsapp</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Telegram</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Ticketing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="menu">
+                <h3 class="menu-title">FAQ</h3>
+                <ul class="menu-list">
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Account</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Manage Deliveries</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Orders</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Payments</a>
+                    </li>
+                    <li class="menu-items">
+                        <a href="/" class="menu-item">Returns</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+
+
+    <div class="row justify-content-between bottom-bar">
+        <div class="col-md-8">
+          <ul class="d-flex bottom-list">
+            <li>
+                <a href="/">About us</a>
+            </li>
+            <li>
+                <a href="/">About us</a>
+            </li>
+            <li>
+                <a href="/">About us</a>
+            </li>
+            <li>
+                <a href="/">About us</a>
+            </li>
+            <li>
+                <a href="/">About us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+<p class="right">© 2000-2023, All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        // $('.owl-carousel').owlCarousel()
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          autoplay: true, // add this option
+          responsive: {
+            0: {
+              items: 2,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 5,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
