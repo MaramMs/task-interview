@@ -689,7 +689,7 @@ footer {
 /* end footer */
 
 /* start  media query */
-@media (min-width: 395px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 639px) {
   .nav-item {
     margin-left: 0px;
   }
@@ -868,6 +868,10 @@ footer{
 @media (min-width: 1366px) {
     .product-img {
       width: 465px;
+    }
+    .nav-item {
+        margin-left: 22px
+    
     }
 }
 /* end  media query */
